@@ -1,11 +1,10 @@
 # OpenClaw Workshop: Build Your GTM AI Agent
 
-## Event Information
+Date:
+June 16, 2026
 
-**Workshop:** Build Your GTM AI Agent
-**Author:**
-**Date Attended:** June 16, 2026
-**Format:** Hands-on Snowflake Workshop
+Location:
+TechEquity AI
 
 ## Speakers:
 
