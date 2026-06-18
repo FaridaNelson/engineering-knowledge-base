@@ -4,7 +4,7 @@ Date:
 May 18, 2026
 
 Location:
-Moscone Center, San Francisco
+McEnery Convention Center, San Jose
 
 ## Speakers:
 

@@ -8,9 +8,9 @@
 **Date Attended:** May 26, 2026
 **Format:** Hands-on TechEquity AI Workshop
 
-## Speakers:
+## Speakers: Michael Maximilien (often going by "Dr. Max")
 
-## Topics:
+## Topics: ClawMax
 
 ## Key Learnings:
 
