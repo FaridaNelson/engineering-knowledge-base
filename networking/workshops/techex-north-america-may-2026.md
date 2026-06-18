@@ -1,10 +1,10 @@
-# OpenClaw Workshop: Build Your GTM AI Agent
+# TechEx North America 2026
 
 Date:
-June 16, 2026
+May 18, 2026
 
 Location:
-TechEquity AI
+Moscone Center, San Francisco
 
 ## Speakers:
 
