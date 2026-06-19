@@ -12,3 +12,11 @@ String normalization
 upper()
 lower()
 capitalize()
+
+Example:
+
+150 years old
+↓
+Verified source says 50
+↓
+Correct the value
