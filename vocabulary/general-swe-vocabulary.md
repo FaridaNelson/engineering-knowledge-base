@@ -80,3 +80,36 @@ a path completely.
 
 Repeatedly visiting nested structures
 using the same procedure.
+
+---
+
+## Merge Conflict
+
+Occurs when Git cannot automatically
+merge conflicting changes.
+
+---
+
+## git diff-tree
+
+Displays changes introduced by a commit.
+
+---
+
+## Recursive Traversal (-r)
+
+Instructs Git to recursively traverse
+subdirectories.
+
+---
+
+## Branch Checkout
+
+Switching the working directory
+to another branch.
+
+---
+
+## Repository Clone
+
+Creating a local copy of a remote repository.
