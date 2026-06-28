@@ -113,3 +113,27 @@ to another branch.
 ## Repository Clone
 
 Creating a local copy of a remote repository.
+
+---
+
+## Output Redirection (>)
+
+Writes command output to a file.
+
+---
+
+## Append Redirection (>>)
+
+Adds command output to the end of a file.
+
+---
+
+## Shell Script
+
+A text file containing shell commands.
+
+---
+
+## Working Directory
+
+The current directory where commands execute.
