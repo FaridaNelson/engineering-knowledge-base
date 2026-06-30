@@ -1,24 +1,37 @@
 # AI
 
-Notes related to:
+Notes related to artificial intelligence, LLM applications, retrieval systems, agentic workflows, and AI architectures.
 
-- LLMs
-- Agentic AI
-- RAG
-- Prompt Engineering
-- AI Architecture
-- OpenClaw
-- AI Workflows
-- AI Inference Pipelines
+## Core Areas
 
-## AI Engineering
+### LLMs
 
-### Vector Retrieval
+- Prompt engineering
+- Inference pipelines
+- Context management
+
+### Retrieval Systems
 
 - Embeddings
 - Semantic Search
 - HNSW
-- ANN Search
-- Quantization
-- RAG
+- Approximate Nearest Neighbor (ANN) Search
+- Vector Quantization
+- Retrieval-Augmented Generation (RAG)
 - Agent Memory
+
+### Agentic AI
+
+- Agent architectures
+- Tool calling
+- Agent memory
+- Multi-agent systems
+- OpenClaw
+
+### AI Systems Engineering
+
+- AI workflows
+- AI architecture
+- Evaluation
+- Observability
+- Production AI systems
