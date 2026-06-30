@@ -2,6 +2,21 @@
 
 Notes related to MongoDB, Mongoose, schema design, indexing, and document databases.
 
+## Resources
+
+### Fundamentals
+
+- mongodb-crud-fundamentals-june-2026.md
+- mongodb-crud-cheatsheet.md
+- mongodb-query-operators.md
+- mongodb-vocabulary.md
+
+### AI & Vector Search
+
+- mongodb-vector-search-fundamentals-june-2026.md
+
+---
+
 ## MongoDB Learning Path
 
 ### Completed
