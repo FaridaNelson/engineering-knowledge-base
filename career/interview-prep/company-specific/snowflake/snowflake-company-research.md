@@ -1,0 +1,7 @@
+- cloud data platform
+- distributed systems
+- storage/compute
+- separation
+- Snowpark
+- notebooks
+- AI integrations
