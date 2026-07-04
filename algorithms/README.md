@@ -16,3 +16,7 @@ Future topics:
 - Trees
 - Dynamic programming
 - Graph algorithms
+
+## JavaScript Patterns
+
+- [JavaScript Patterns](./javascript-patterns/README.md)
