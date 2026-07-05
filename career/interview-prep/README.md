@@ -1,70 +1,57 @@
-# Interview Preparation
+# Technical Interview Preparation
 
-This section contains reusable interview preparation materials, company research, behavioral stories, technical review notes, and role-specific preparation.
+This section contains concise review materials for software engineering interviews.
 
-## Structure
+Detailed study notes and algorithm patterns are maintained in:
 
-### Behavioral Questions
+- ../../algorithms/javascript-patterns/
+- ../../databases/
+- ../../system-design/
+- ../../cloud/
+- ../../security/
 
-Reusable answers and STAR stories for common behavioral interviews.
+## Topics
 
-Examples:
+### JavaScript
 
-- Tell me about yourself
-- Why software engineering?
-- Why are you transitioning from music?
-- Tell me about a challenge
-- Tell me about a failure
-- Leadership examples
-- Team conflict resolution
-- Learning something quickly
+- Closures
+- Scope
+- Async programming
+- Arrays and objects
+- Regular expressions
 
----
+### Algorithms
 
-### Technical Preparation
+- Linear scans
+- Hash maps and sets
+- Graph traversal
+- BFS/DFS
+- Sorting and searching
 
-Core technical review materials for software engineering interviews.
+### Frontend
 
-Topics include:
-
-- JavaScript
 - React
+- State management
+- Rendering lifecycle
+- Performance optimization
+
+### Backend
+
 - Node.js
+- Express
+- APIs
+- Authentication
 - Databases
-- System Design
-- Algorithms and Data Structures
-- Cloud Engineering
-- AI/ML Concepts
 
----
+### Databases
 
-### Company-Specific Preparation
+- SQL
+- MongoDB
+- Snowflake
 
-#### Voxel
+### System Design
 
-- Company research
-- Technical review
-- Behavioral preparation
-- Computer vision and AI safety concepts
-
-#### Snowflake
-
-- Company research
-- Distributed systems concepts
-- Data engineering
-- Snowpark
-- Behavioral preparation
-
-#### Future Companies
-
-Additional folders will be created as new interview opportunities arise.
-
----
-
-## Interview Preparation Principles
-
-- Maintain reusable behavioral stories.
-- Organize technical concepts by domain.
-- Preserve company research for future applications.
-- Record lessons learned after every interview.
-- Focus on understanding rather than memorization.
+- Scalability
+- Caching
+- APIs
+- Event-driven systems
