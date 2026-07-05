@@ -7,6 +7,7 @@ Reusable JavaScript problem-solving patterns for coding interviews and engineeri
 - [String Validation](./string-validation.md)
 - [Longest Element Search](./longest-element-search.md)
 - [Regex Cheatsheet](./regex-cheatsheet.md)
+- [Question Mark Scan Pattern](./question-mark-scan-pattern.md)
 
 ## Core lessons
 
