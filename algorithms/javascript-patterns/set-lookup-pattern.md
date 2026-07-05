@@ -22,3 +22,23 @@ for (const item of arr2) {
   }
 }
 ```
+
+## Contains Duplicate (Python)
+
+seen = set()
+
+for item in nums:
+if item in seen:
+return True
+
+    seen.add(item)
+
+return False
+
+## Common Use Cases
+
+- Duplicate detection
+- Array intersection
+- Membership checking
+- Fast lookup
+- Frequency counting (with HashMap/Dictionary)
