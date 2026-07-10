@@ -42,3 +42,57 @@ What if something is not clear with the task?
 When you receive the code challenge, it's extremely important to make sure that you understand all of the instructions. If something is unclear, do not hesitate to reach out to HR to clarify it.
 
 After you submit a task, you'll get a response confirming that it's successfully been submitted and further information on when you can expect to receive feedback. You may be asked to send a short demo video or a slide deck guiding your potential employer through the solution you have built. If you are not asked to do so, consider making a demo or a slide deck to make your submission stand out.
+
+Sprint 17: Career Sprint
+
+Chapter 5/6 · There are 4 lessons left
+Optimizing Your Technical Interview
+15 min
+Tech Interview Prep
+Take a look at the resources below to help prepare for your technical interviews. If you're having trouble understanding certain topics, you may also use these as supplementary materials. After all, looking at information from a different angle might be exactly what you need to see things more clearly.
+
+Interview processes and questions at well-known companies
+A guide from Glassdoor with specific information on some of the top companies in the US
+Here's How to Prepare for Tech Interviews — A great Reddit post about tech interviews and preparation
+Tech Interview Handbook — Carefully curated content to help you ace your next technical interview
+20 Technical Questions with Example Answers — A Medium article covering frequently asked interview questions
+Data structure and algorithms
+Big-O Cheat Sheet — This one is pretty self-explanatory. Use it as a reference or study tool.
+Algorithm Implementations — Examples of how to implement some common algorithms
+Cracking the Coding Interview — A book by Gayle Laakmann McDowell with 189 questions and answers for algorithm problems
+Interview practice platforms
+Pramp — Practice live interviews with peers for free
+Gainlo — Try a test interview with an interviewer from the tech company you're applying for. (if you have a real interview scheduled, you could practice it first with people who actually work at this specific company). This service starts at $80 per interview
+Codewars – Improve your problem-solving skills by completing coding challenges (called "katas") in various programming languages.
+ChatGPT also can help you practice common interview questions. Here is a prompt to use:
+🤖 ChatGPT prompt:
+
+Act as a hiring manager for [Company Name]. Conduct a mock technical interview with me for a [Position Name] role. Please ask me one question at a time and wait for my response after each question before moving forward. At the end, provide feedback on how I can improve my responses.
+
+In technical interviews, strong communication skills can be just as important as technical expertise. Rather than memorizing a large number of practice problems, consider working with a friend to simulate real interview conditions. Have them randomly select a few problems and focus on asking clarifying questions to fully understand the requirements before diving into the solution. This approach helps reinforce key skills such as identifying necessary test cases, evaluating code performance, and explaining your decision-making process. Practicing these elements will not only improve your problem-solving abilities but also help you articulate your thought process clearly to interviewers.
+
+Practicing Test Tasks
+If you want to practice solving technical tasks and take-home assignments before your tech interview, there are multiple ways to do so:
+
+ChatGPT
+You could also ask ChatGPT for help using these prompts:
+
+🤖 ChatGPT prompt:
+
+Act as a technical interview expert. Provide me with specific test tasks or challenges for the [mention role and grade] position at [mention company name]. These tasks should assess skills and competencies relevant to the role.
+
+External Platforms
+External Platforms
+There is also a wide range of resources and platforms where you can practice solving relevant test tasks and take-home assignments:
+
+LeetCode
+LeetCode offers a variety of coding challenges, including data structure, algorithms, and system design.
+
+HackerRank
+HackerRank provides a comprehensive set of coding challenges in data structures, algorithms, with real-world scenarios. Their coding test are timed and mimic actual technical interview questions.
+
+GitHub
+GitHub hosts repositories with software engineering projects. You can fork and work on these projects to practice your skills.
+
+Online Forums and Communities
+Engage in data science communities and forums like Stack Overflow, Reddit's r/softwareengineering/, and LinkedIn groups. Discuss data challenges and learn from others.
