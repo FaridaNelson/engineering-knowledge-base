@@ -1,63 +1,101 @@
 # Engineering Knowledge Base
 
-A personal engineering knowledge repository containing technical notes, workshop learnings, architecture references, implementation details, and study materials.
+A curated engineering knowledge repository containing technical notes, architecture references, workshop learnings, implementation patterns, and project documentation gathered throughout my software engineering journey.
 
 ## Purpose
 
-This repository serves as a long-term reference for technologies, concepts, tools, and patterns encountered during software engineering, cloud, AI, security, and product development work.
+This repository serves as a long-term reference for technologies, concepts, tools, and engineering decisions encountered while building production software, studying computer science topics, and exploring modern AI systems.
 
-## Categories
+---
 
-### Databases
+# Topics
 
-- Snowflake
-- MongoDB
-- SQL
-- Data Engineering
+## Artificial Intelligence
 
-### AI
-
-- LLMs
-- RAG
+- LLM Fundamentals
+- RAG (Retrieval-Augmented Generation)
 - Agentic AI
 - OpenClaw
+- LangGraph _(planned)_
+- Semantic Search
+- Hybrid Search
+- Embeddings
 
-### Cloud
+## Databases
+
+- MongoDB
+- MongoDB Vector Search
+- Atlas Search
+- SQL
+- Snowflake
+- Data Engineering
+
+## Cloud & DevOps
 
 - Google Cloud Platform
 - Docker
 - Nginx
 - Linux
+- CI/CD
 
-### Security
+## Security
 
+- Authentication
+- Authorization
+- RBAC
+- JWT
+- CSRF
 - CodeQL
 - Snyk
-- Authentication & Authorization
-- Secure Development
 
-### System Design
+## System Design
 
 - Architecture Patterns
 - Scalability
-- Performance
 - Distributed Systems
+- Performance
+- API Design
 
-### StudioPulse
+## StudioPulse
 
-Internal architecture, roadmap planning, technical decisions, and implementation notes.
+Personal documentation for the StudioPulse platform:
 
-### Networking
+- architecture
+- implementation notes
+- backend design
+- AI roadmap
+- deployment
+- technical decisions
 
-Notes from workshops, conferences, meetups, and industry events.
+## Algorithms
+
+- Data Structures
+- Algorithm Patterns
+- Problem Solving
+
+## Networking
+
+Notes from:
+
+- conferences
+- workshops
+- meetups
+- technical talks
+
+## Vocabulary
+
+Engineering terminology collected while studying new technologies.
 
 ---
 
-## Recent Additions
+# Repository Goals
 
-- Snowflake Vocabulary
-- Snowpark Fundamentals
-- Data Engineering Workshop Notes
+- Build a searchable engineering reference
+- Document implementation decisions
+- Capture workshop learnings
+- Reinforce understanding through writing
+- Track the evolution of StudioPulse
+- Create reusable engineering documentation
 
 ---
 
