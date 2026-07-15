@@ -1,82 +1,216 @@
-# MongoDB
+# MongoDB AI Search and Retrieval
 
-Notes related to MongoDB, Mongoose, schema design, indexing, and document databases.
+This directory documents MongoDB capabilities used to build semantic search, hybrid retrieval, Retrieval-Augmented Generation (RAG), AI-agent memory, and long-term application intelligence.
 
-## Resources
+MongoDB can store structured application data and unstructured text in the same document model. This allows an application to combine:
 
-### Fundamentals
+- exact database queries
+- aggregation pipelines
+- full-text search
+- vector search
+- semantic retrieval
+- metadata filtering
+- generated summaries
+- AI-agent memory
 
-- mongodb-crud-fundamentals-june-2026.md
-- mongodb-crud-cheatsheet.md
-- mongodb-query-operators.md
-- mongodb-vocabulary.md
+## Core Architecture
 
-### AI & Vector Search
+```text
+Application data
+      │
+      ├── Structured fields
+      │     ├── identifiers
+      │     ├── dates
+      │     ├── scores
+      │     ├── practice minutes
+      │     └── tempos
+      │
+      └── Text fields
+            ├── teacher notes
+            ├── observations
+            ├── feedback
+            └── generated summaries
 
-- mongodb-vector-search-fundamentals-june-2026.md
+                    ↓
 
----
+          MongoDB Search Layer
 
-## MongoDB Learning Path
+      ┌─────────────┴─────────────┐
+      │                           │
+Keyword / filter search     Vector search
+      │                           │
+      └─────────────┬─────────────┘
+                    ↓
+              Hybrid retrieval
+                    ↓
+              Optional reranking
+                    ↓
+                    LLM
+```
 
-### Completed
+## Documents in This Directory
 
-#### ✅ MongoDB CRUD Fundamentals (June 2026)
+### [Vector Search](./vector-search.md)
 
-Topics covered:
+Covers:
 
-- CRUD operations
-- Query filters
-- Comparison operators
-- Logical operators
-- Sorting
-- Projection
-- Counting
-- Arrays
+- embeddings
+- semantic similarity
+- vector indexes
+- query vectors
+- similarity functions
+- filtering
+- retrieval architecture
 
-Achievement:
+### [Automated Embedding](./automated-embedding.md)
 
-- Credly Skill Badge earned
+Covers:
 
----
+- the `autoEmbed` index type
+- index-time embedding
+- query-time embedding
+- generated embeddings storage
+- cluster requirements
+- model selection
+- lifecycle management
 
-#### ✅ MongoDB Vector Search Fundamentals (June 2026)
+### [Hybrid Search](./hybrid-search.md)
 
-Topics covered:
+Covers:
 
-- Semantic vs lexical search
-- Vector embeddings
-- Embedding dimensions
-- Similarity functions
-- HNSW indexing
-- Approximate Nearest Neighbor (ANN) search
-- Pre-filtering
-- Vector quantization
-- Dedicated search nodes
+- combining lexical and semantic retrieval
+- metadata filters
+- score fusion
+- reranking
+- authorization boundaries
+- StudioPulse examples
 
-Applications explored:
+### [Chunking](./chunking.md)
 
-- Retrieval-Augmented Generation (RAG)
-- Recommendation systems
-- Semantic search
-- Agent memory systems
-- Educational technology
+Covers:
 
-Achievement:
+- why documents are split
+- chunk size
+- chunk overlap
+- semantic chunking
+- parent-document retrieval
+- generated summaries
+- contextualized embeddings
 
-- Credly Skill Badge earned
+### [Voyage AI Models](./voyage-ai-models.md)
 
----
+Covers:
 
-### In Progress
+- general-purpose embedding models
+- cost and accuracy trade-offs
+- code embeddings
+- contextualized retrieval
+- reranking models
+- model-selection criteria
 
-#### 🚧 MongoDB AI Fundamentals
+## Structured Data and Semantic Data
 
-Upcoming topics:
+Not all data should be handled in the same way.
 
-- Retrieval-Augmented Generation (RAG)
-- AI agents
-- Agent memory architectures
-- Vector databases
-- Tool calling
-- Knowledge retrieval systems
+### Structured data
+
+Examples:
+
+- `studentId`
+- `teacherId`
+- `examCycleId`
+- practice minutes
+- current tempo
+- goal tempo
+- score
+- lesson date
+- attendance
+- task status
+
+These fields are best handled through:
+
+- normal MongoDB queries
+- indexes
+- aggregation pipelines
+- exact filters
+
+### Semantic text
+
+Examples:
+
+- teacher observations
+- student reflections
+- technical comments
+- assignment notes
+- cycle summaries
+- long-term trend summaries
+
+These fields may benefit from:
+
+- embeddings
+- Vector Search
+- semantic retrieval
+- reranking
+
+### Derived intelligence
+
+Structured records can produce higher-level insight documents.
+
+```text
+Practice minutes
+Current tempo
+Goal tempo
+Scores
+Attendance
+Teacher notes
+       ↓
+Aggregation and analysis
+       ↓
+Exam-cycle analytics
+       ↓
+Narrative summary
+       ↓
+Automated Embedding
+       ↓
+Long-term semantic retrieval
+```
+
+The structured source records remain authoritative. Generated summaries form an interpretation and retrieval layer.
+
+## StudioPulse Application
+
+Potential StudioPulse uses include:
+
+- semantic search over teacher notes
+- exam-cycle summaries
+- tempo-progression analysis
+- practice-consistency analysis
+- recurring technical-pattern retrieval
+- cross-cycle comparisons
+- parent-facing explanations
+- teacher-assistant workflows
+- AI-agent memory
+
+## Security Principle
+
+Vector Search does not replace authorization.
+
+Every search must be scoped to records the authenticated user is allowed to access.
+
+```text
+Authenticated user
+       ↓
+Backend resolves role
+       ↓
+Backend resolves authorized student scope
+       ↓
+Vector or hybrid search with filters
+       ↓
+Authorized results only
+```
+
+The LLM must not choose or validate access boundaries.
+
+## Design Principle
+
+> Use structured queries for exact facts, semantic search for meaning, and hybrid retrieval when both are required.
