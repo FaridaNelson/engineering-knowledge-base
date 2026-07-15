@@ -2,7 +2,7 @@
 
 This directory documents MongoDB capabilities used to build semantic search, hybrid retrieval, Retrieval-Augmented Generation (RAG), AI-agent memory, and long-term application intelligence.
 
-MongoDB can store structured application data and unstructured text in the same document model. This allows an application to combine:
+MongoDB can store structured application data, unstructured text, and vector-search indexes within the same application architecture, making it well suited for AI-powered applications that combine transactional data with semantic retrieval. This allows an application to combine:
 
 - exact database queries
 - aggregation pipelines
@@ -12,6 +12,19 @@ MongoDB can store structured application data and unstructured text in the same 
 - metadata filtering
 - generated summaries
 - AI-agent memory
+
+## Topics Covered
+
+- MongoDB CRUD
+- Query Operators
+- Aggregation Concepts
+- Vector Search
+- Semantic Search
+- Hybrid Search
+- Automated Embedding
+- Chunking
+- Voyage AI Models
+- AI Retrieval Architecture
 
 ## Core Architecture
 
@@ -48,7 +61,37 @@ Keyword / filter search     Vector search
                     LLM
 ```
 
+## Suggested Reading Order
+
+If you're new to MongoDB:
+
+1. CRUD Fundamentals
+2. CRUD Cheatsheet
+3. Query Operators
+4. Vector Search Fundamentals
+5. Vector Search
+6. Chunking
+7. Hybrid Search
+8. Automated Embedding
+9. Voyage AI Models
+
 ## Documents in This Directory
+
+### Fundamentals
+
+- [CRUD Fundamentals](./crud-fundamentals.md)
+- [CRUD Cheatsheet](./crud-cheatsheet.md)
+- [Query Operators](./query-operators.md)
+- [Vocabulary](./vocabulary.md)
+
+### AI Search & Retrieval
+
+- [Vector Search Fundamentals](./vector-search-fundamentals.md)
+- [Vector Search](./vector-search.md)
+- [Chunking](./chunking.md)
+- [Hybrid Search](./hybrid-search.md)
+- [Automated Embedding](./automated-embedding.md)
+- [Voyage AI Models](./voyage-ai-models.md)
 
 ### [Vector Search](./vector-search.md)
 
